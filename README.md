@@ -6,7 +6,7 @@ various physical parameters like temperature, soilmoisture, humidity etc. The in
 data which would enable us to give a better prediction and more feasibility. The machine learning algorithm gives the
 prediction based on the small-scale real-time dataset.
 
-Electronic Components used : 
+Electronic Components used :/n 
 ⬡ Capacitive Soil Moisture Sensor
 ⬡ DHT22
 ⬡ Nodemcu
