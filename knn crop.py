@@ -19,7 +19,7 @@ from mlxtend.plotting import plot_decision_regions
 
 
 #importing the csv file or dataset
-crops = pd.read_csv(r'C:\Users\Chiitrak Sarkar\Desktop\crop.csv',engine='python')
+crops = pd.read_csv(r'C:\Users\Chiitrak Sarkar\Desktop\crop.csv',engine='python') #Download the dataset and put your own path for the saved file
 crop_feature_name = ['rainfall','fav_temp'] 
 x_crops = crops[crop_feature_name]       #naming the parameters
 y_crops = crops['crop_label']            #naming the 5 labels
@@ -91,7 +91,6 @@ plt.title('Knn with K='+ str(3))
 plt.show()
 
 
-# In[ ]:
 
 
 
